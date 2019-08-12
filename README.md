@@ -1,6 +1,5 @@
 # JCat
 
-@(手撸Tomcat)[servlet|classloader]
 
 **JCat**是一只我们手撸的Tomcat，实现了“纯种”Tomcat处理Servlet请求、动态类加载、Web应用程序隔离等功能。在本项目中，您可以学习到以下知识点：
 
