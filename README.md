@@ -1,6 +1,5 @@
 # JCat
 
-@(手撸Tomcat)[servlet|classloader]
 
 **JCat**是一只我们手撸的Tomcat，实现了“纯种”Tomcat处理Servlet请求、动态类加载、Web应用程序隔离等功能。在本项目中，您可以学习到以下知识点：
 
@@ -12,7 +11,6 @@
 ## 总体架构
 JCat主要是由Server、Request、Response、Context这几个组件组成的。其中，Context由多个ContextEntry组成，而ContextEntry由包括了用于Servlet管理的ServletMapping，以及ContextEntry状态监控的Listeners。
 <img src="https://raw.githubusercontent.com/junjie-tang99/markdown-images/master/jcat/d34ed3db-3727-495b-89c9-d8dbc93949df.png" alt="总体架构"  width="450" />
-
 
 ## 项目结构
 ![项目结构](https://raw.githubusercontent.com/junjie-tang99/markdown-images/master/jcat/87519a7e-4f60-422b-909b-3493ac55bf2d.png)
