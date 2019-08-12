@@ -11,7 +11,7 @@
 
 ## 总体架构
 JCat主要是由Server、Request、Response、Context这几个组件组成的。其中，Context由多个ContextEntry组成，而ContextEntry由包括了用于Servlet管理的ServletMapping，以及ContextEntry状态监控的Listeners。
-![总体架构](https://raw.githubusercontent.com/junjie-tang99/markdown-images/master/jcat/d34ed3db-3727-495b-89c9-d8dbc93949df.png){:height="100px" width="100px"}
+<img src="https://raw.githubusercontent.com/junjie-tang99/markdown-images/master/jcat/d34ed3db-3727-495b-89c9-d8dbc93949df.png" alt="总体架构"  width="200" height="200" />
 
 
 ## 项目结构
